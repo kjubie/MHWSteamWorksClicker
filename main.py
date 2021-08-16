@@ -3,7 +3,6 @@ import random
 import time
 import threading
 
-
 keys = ["a", "w", "s"]
 
 def resume():
@@ -18,25 +17,6 @@ def stop():
     global thread
     thread.stop()
 
-"""
-def buttonPresser():
-    keyboard = Controller()
-    
-    global looping
-    
-    print(looping)
-    
-    while(looping):
-        for key in keys:
-            keyboard.press(key)
-            keyboard.release(key)
-            time.sleep(0.5)
-        
-        random.shuffle(keys)
-        
-    return
-"""  
-  
 class buttonClicker(threading.Thread):
     def __init__(self, *args, **kwargs):
         super(buttonClicker, self).__init__(*args, **kwargs)
