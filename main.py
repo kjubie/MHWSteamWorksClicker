@@ -40,7 +40,6 @@ class buttonClicker(threading.Thread):
                 time.sleep(0.25)
         
             random.shuffle(keys)
-        
         return
 
     def pause(self):
