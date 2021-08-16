@@ -13,8 +13,8 @@ To resume press 'page_up' key again.
 Press 'end' key to end the program.
 
 ## Requrements
-Python (of course)
-pynput
+- Python (of course)
+- pynput
 
 ## Upcoming Changes
 Currently the program does not account for the cats that tell you what you need to press.
