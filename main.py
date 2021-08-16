@@ -91,9 +91,9 @@ class buttonClicker(threading.Thread):
             
             for key in keys:
                 PressKey(key)
-                time.sleep(0.5)
+                time.sleep(0.3)
                 ReleaseKey(key)
-                time.sleep(0.5)
+                time.sleep(0.3)
         
             random.shuffle(keys)
         return
