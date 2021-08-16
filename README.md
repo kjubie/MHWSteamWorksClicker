@@ -9,7 +9,7 @@ Start the main.py and press 'page_up' key to start pressing 'w', 'a' and 's' key
 Press 'page_down' key to pause the program.
 To resume press 'page_up' key again.
 
-## End
+## Stopping
 Press 'end' key to end the program.
 
 ## Requrements
