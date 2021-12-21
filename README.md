@@ -1,6 +1,6 @@
 # MHWSteamWorksClicker
 
-Automated button presser for MMHW Steamworks.
+Automated button presser for MHW Steamworks.
 
 ## Starting
 Start the main.py and press 'page_up' key to start pressing 'w', 'a' and 's' keys in random order.
